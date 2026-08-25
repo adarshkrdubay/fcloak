@@ -228,6 +228,16 @@ It has not undergone an independent security audit.
 Do not use it as the only protection for irreplaceable or highly sensitive data.
 
 Keep independent backups.
+## Team
+
+### TheWIZs
+
+FCLOAK is developed and maintained by TheWIZs.
+
+### Core Team
+
+- **Adarsh Kumar** — Founder / Lead Developer
+- **Sana Iqbal** — Contributor
 
 ## Contributors
 

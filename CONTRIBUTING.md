@@ -79,5 +79,5 @@ Add encrypted container integrity test
 
 Current contributors include:
 
-- TheWIZs
+- Adarsh Kumar
 - Sana Iqbal
