@@ -1,0 +1,16 @@
+{
+  "project": "FCLOAK",
+  "version": "0.1.0-alpha.1",
+  "contributors": [
+    {
+      "name": "Adarsh Kumar",
+      "role": "maintainer / lead developer",
+      "github": "https://github.com/adarshkrdubay"
+    },
+    {
+      "name": "Sana Iqbal",
+      "role": "contributor",
+      "github": "https://github.com/sanaiqbal-sys"
+    }
+  ]
+}

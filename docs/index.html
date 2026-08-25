@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FCLOAK — Encrypted Desktop Vault</title>
+<style>
+:root{color-scheme:dark;--bg:#0d1117;--panel:#161b22;--text:#e6edf3;--muted:#8b949e;--accent:#0ea5e9;--border:#30363d}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,Segoe UI,sans-serif}
+.wrap{max-width:1050px;margin:auto;padding:70px 24px}
+.hero{padding:70px 0 45px}
+.badge{display:inline-block;border:1px solid var(--border);border-radius:999px;padding:5px 12px;color:var(--muted)}
+h1{font-size:clamp(42px,8vw,76px);margin:18px 0 5px;letter-spacing:-3px}
+h2{margin-top:50px}
+.lead{font-size:21px;color:var(--muted);max-width:760px}
+.btn{display:inline-block;margin:18px 10px 0 0;padding:11px 18px;border-radius:8px;text-decoration:none;border:1px solid var(--border);color:var(--text);background:var(--panel)}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:white}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
+.card{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:22px}
+code{background:#010409;padding:2px 6px;border-radius:5px}
+.muted{color:var(--muted)}
+footer{margin-top:70px;padding-top:20px;border-top:1px solid var(--border);color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<section class="hero">
+<span class="badge">Alpha 1 · v0.1.0-alpha.1 · Windows</span>
+<h1>FCLOAK</h1>
+<p class="lead">A local-first encrypted desktop vault with optional cloud storage.</p>
+<a class="btn primary" href="https://github.com/adarshkrdubay/fcloak/releases">Download Alpha</a>
+<a class="btn" href="https://github.com/adarshkrdubay/fcloak">View source</a>
+</section>
+
+<h2>Encrypt first. Store second.</h2>
+<div class="grid">
+<div class="card"><h3>Local encryption</h3><p class="muted">Files are encrypted locally into <code>.fcloak</code> containers.</p></div>
+<div class="card"><h3>Cloud storage</h3><p class="muted">Encrypted containers can be synchronized with supported cloud providers.</p></div>
+<div class="card"><h3>Local restore</h3><p class="muted">Downloaded containers are decrypted and exported locally.</p></div>
+</div>
+
+<h2>Cloud providers</h2>
+<div class="grid">
+<div class="card">Google Drive — Alpha 1</div>
+<div class="card">Microsoft OneDrive — Planned</div>
+<div class="card">Dropbox — Planned</div>
+<div class="card">S3 / WebDAV — Planned</div>
+</div>
+
+<h2>Security notice</h2>
+<p class="muted">FCLOAK Alpha 1 has not received an independent security audit. Do not rely on it as the sole protection for irreplaceable or highly sensitive information. Keep independent backups.</p>
+
+<h2>Contributors</h2>
+<p class="muted">TheWIZs · Sana Iqbal</p>
+
+<footer>FCLOAK · 2026 · MIT License</footer>
+</div>
+</body>
+</html>
