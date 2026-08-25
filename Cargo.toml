@@ -1,0 +1,8 @@
+[workspace]
+members = [
+    "apps/fcloak-cli",
+    "apps/fcloak-gui",
+    "crates/fcloak-core",
+]
+
+resolver = "2"

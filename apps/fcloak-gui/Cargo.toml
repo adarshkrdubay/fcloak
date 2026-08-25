@@ -1,0 +1,36 @@
+[package]
+name = "fcloak-gui"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+fcloak-core = { path = "../../crates/fcloak-core" }
+
+eframe = "0.33.3"
+egui = "0.33.3"
+
+rfd = "0.15.4"
+directories = "6.0.0"
+
+rand = "0.9.5"
+argon2 = "0.5"
+
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+reqwest = { version = "0.12", features = [
+    "blocking",
+    "json",
+    "multipart",
+    "rustls-tls"
+] }
+
+oauth2 = "4.4.2"
+url = "2"
+urlencoding = "2.1"
+open = "5"
+
+keyring = { version = "3.6.3", features = ["windows-native"] }
+
+[build-dependencies]
+winresource = "0.1"

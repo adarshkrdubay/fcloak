@@ -1,0 +1,34 @@
+# Rust
+/target/
+
+# Rust/IDE
+*.rs.bk
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Google credentials / secrets
+client_secret.json
+credentials.json
+
+# FCLOAK encrypted files
+*.fcloak
+
+# Temporary FCLOAK files
+*.fcloak-tmp
+
+# Test artifacts
+*.tmp
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Windows
+desktop.ini
